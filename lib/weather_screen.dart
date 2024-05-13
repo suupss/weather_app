@@ -149,7 +149,7 @@ class _WeatherScreenState extends State<WeatherScreen> {
                                 hourlyForecast['weather'][0]['main'].toString();
                             final time =
                                 DateTime.parse(hourlyForecast['dt_txt']);
-                            DateTime.parse(hourlyForecast['dt_txt']);
+
                             return HourlyForcastItem(
                                 time: DateFormat.jm().format(time),
                                 temperature:
